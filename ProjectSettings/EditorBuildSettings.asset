@@ -12,9 +12,15 @@ EditorBuildSettings:
     path: Assets/Scenes/NightScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/GameOver.unity
-    guid: 6cbfabb7f433d40cbae69c98b6022a8f
-  - enabled: 1
     path: Assets/Scenes/DuskScene.unity
     guid: 30717fac8ec1949858128e28a804ba08
+  - enabled: 1
+    path: Assets/Scenes/DawnScene.unity
+    guid: aecf1ed3622004e9481c1949c104a4a6
+  - enabled: 1
+    path: Assets/Scenes/MorningScene.unity
+    guid: e09bd2fce8aeb4c71a385db61ad1306f
+  - enabled: 1
+    path: Assets/Scenes/GameOver.unity
+    guid: 6cbfabb7f433d40cbae69c98b6022a8f
   m_configObjects: {}
