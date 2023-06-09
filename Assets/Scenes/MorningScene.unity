@@ -7029,6 +7029,7 @@ GameObject:
   - component: {fileID: 2058718328}
   - component: {fileID: 2058718340}
   - component: {fileID: 2058718339}
+  - component: {fileID: 2058718341}
   - component: {fileID: 2058718338}
   - component: {fileID: 2058718337}
   - component: {fileID: 2058718336}
@@ -7701,6 +7702,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2058718341
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2058718325}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b5b7d685dc2e4f4381099d273420068, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ammoText: {fileID: 678677698}
+  ammoCount: 10
 --- !u!1001 &2068395884
 PrefabInstance:
   m_ObjectHideFlags: 0
