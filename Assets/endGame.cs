@@ -1,14 +1,16 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class EndGame : MonoBehaviour
+public class endGame : MonoBehaviour
 {
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Player"))
+        if (collision.tag == "Player")
         {
-            // Load the game over scene
-            SceneManager.LoadScene("GameOver");
+            SceneManager.LoadScene("NightScene");
         }
     }
 }

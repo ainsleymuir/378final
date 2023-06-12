@@ -521,6 +521,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 73908959459163518, guid: 92162fc9606474ba793c9f4436bd10d0, type: 3}
+      propertyPath: boxCollider
+      value: 
+      objectReference: {fileID: 1343258159}
+    - target: {fileID: 73908959459163518, guid: 92162fc9606474ba793c9f4436bd10d0, type: 3}
       propertyPath: attackSoundEffect
       value: 
       objectReference: {fileID: 94272709}
@@ -639,11 +643,11 @@ MonoBehaviour:
   attackCooldown: 1
   damage: 1
   colliderDistance: 0.1
-  boxCollider: {fileID: 0}
+  boxCollider: {fileID: 94272714}
   playerLayer:
     serializedVersion: 2
     m_Bits: 8
-  attackSoundEffect: {fileID: 0}
+  attackSoundEffect: {fileID: 1343258156}
 --- !u!114 &94272708
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -849,6 +853,11 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!61 &94272714 stripped
+BoxCollider2D:
+  m_CorrespondingSourceObject: {fileID: 73908959459163515, guid: 92162fc9606474ba793c9f4436bd10d0, type: 3}
+  m_PrefabInstance: {fileID: 94272702}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &210281102
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1276,7 +1285,7 @@ MonoBehaviour:
   attackCooldown: 1
   damage: 1
   colliderDistance: 0.1
-  boxCollider: {fileID: 0}
+  boxCollider: {fileID: 94272714}
   playerLayer:
     serializedVersion: 2
     m_Bits: 8
@@ -2037,7 +2046,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5653397265943042142, guid: bc6d396e77dc543bc9d83751e0dad66a, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5653397265943042142, guid: bc6d396e77dc543bc9d83751e0dad66a, type: 3}
       propertyPath: m_LocalScale.x
@@ -3696,7 +3705,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5653397265943042142, guid: bc6d396e77dc543bc9d83751e0dad66a, type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 5653397265943042142, guid: bc6d396e77dc543bc9d83751e0dad66a, type: 3}
       propertyPath: m_LocalScale.x
@@ -4834,6 +4843,16 @@ Transform:
   m_Father: {fileID: 1438007848}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &1343258156 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 3496253874432869389, guid: 187bb4d20d8384f03b8384f07db73dba, type: 3}
+  m_PrefabInstance: {fileID: 1652950496}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &1343258159 stripped
+BoxCollider2D:
+  m_CorrespondingSourceObject: {fileID: 3496253873514092807, guid: 187bb4d20d8384f03b8384f07db73dba, type: 3}
+  m_PrefabInstance: {fileID: 1652950496}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1374326749
 GameObject:
   m_ObjectHideFlags: 0
@@ -5794,7 +5813,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startingHealth: 3
   hurtSoundEffect: {fileID: 1453336511}
-  dieSoundEffect: {fileID: 0}
+  dieSoundEffect: {fileID: 1453336511}
   components: []
 --- !u!114 &1453336509
 MonoBehaviour:
@@ -6915,7 +6934,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
