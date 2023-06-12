@@ -10,7 +10,7 @@ public class Success : MonoBehaviour
     {
         if(collision.tag == "Player")
         {  
-            SceneManager.LoadScene("StartMenuScene");
+            SceneManager.LoadScene("SuccessScene");
         }
     }
 }
