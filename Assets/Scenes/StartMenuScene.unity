@@ -181,7 +181,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u2190: Moce to left\n\u2192: Move to right\n\u2191  : Jump\nSpace: Attack!\nCollect
+  m_text: "\u2190: Move to left\n\u2192: Move to right\n\u2191  : Jump\nSpace: Attack!\nCollect
     fruits to gain health\nand be aware of enemies!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -761,7 +761,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &903490191
 MonoBehaviour:
   m_ObjectHideFlags: 0
