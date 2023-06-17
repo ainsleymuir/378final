@@ -650,7 +650,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 84027891}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 36.87, y: -2.13, z: 0.15832032}
+  m_LocalPosition: {x: 34.7, y: -2.23, z: 0.15832032}
   m_LocalScale: {x: 6, y: 7, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1651,6 +1651,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EnemyPatrolHedgedog (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1365844082322231372, guid: 301585ae21fc98446be90f507240ebe7, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2147839750315510777, guid: 301585ae21fc98446be90f507240ebe7, type: 3}
       propertyPath: range
       value: 1.2
@@ -1658,6 +1662,10 @@ PrefabInstance:
     - target: {fileID: 2147839750315510783, guid: 301585ae21fc98446be90f507240ebe7, type: 3}
       propertyPath: m_LocalPosition.x
       value: 38.52
+      objectReference: {fileID: 0}
+    - target: {fileID: 6980274295848447866, guid: 301585ae21fc98446be90f507240ebe7, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 301585ae21fc98446be90f507240ebe7, type: 3}
@@ -2057,6 +2065,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EnemyPatrolHedgedog (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1365844082322231372, guid: 301585ae21fc98446be90f507240ebe7, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2147839750315510777, guid: 301585ae21fc98446be90f507240ebe7, type: 3}
       propertyPath: range
       value: 1.2
@@ -2064,6 +2076,10 @@ PrefabInstance:
     - target: {fileID: 2147839750315510783, guid: 301585ae21fc98446be90f507240ebe7, type: 3}
       propertyPath: m_LocalPosition.x
       value: 38.52
+      objectReference: {fileID: 0}
+    - target: {fileID: 6980274295848447866, guid: 301585ae21fc98446be90f507240ebe7, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 301585ae21fc98446be90f507240ebe7, type: 3}
@@ -3893,7 +3909,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 181, y: 14}
+  m_AnchoredPosition: {x: 159, y: 14}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &617003436
@@ -6295,7 +6311,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1026584742830119969, guid: 301585ae21fc98446be90f507240ebe7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 49.6
+      value: 43.72
       objectReference: {fileID: 0}
     - target: {fileID: 1026584742830119969, guid: 301585ae21fc98446be90f507240ebe7, type: 3}
       propertyPath: m_LocalPosition.y
@@ -6337,6 +6353,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EnemyPatrolHedgedog (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1365844082322231372, guid: 301585ae21fc98446be90f507240ebe7, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2147839750315510777, guid: 301585ae21fc98446be90f507240ebe7, type: 3}
       propertyPath: range
       value: 1.2
@@ -6344,6 +6364,10 @@ PrefabInstance:
     - target: {fileID: 2147839750315510783, guid: 301585ae21fc98446be90f507240ebe7, type: 3}
       propertyPath: m_LocalPosition.x
       value: 38.52
+      objectReference: {fileID: 0}
+    - target: {fileID: 6980274295848447866, guid: 301585ae21fc98446be90f507240ebe7, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 301585ae21fc98446be90f507240ebe7, type: 3}
@@ -6848,7 +6872,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -787, y: 268.60608}
+  m_AnchoredPosition: {x: -829, y: 299}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1293367352
@@ -6889,6 +6913,90 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1293367350}
   m_CullTransparentMesh: 1
+--- !u!1 &1296164979
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1296164981}
+  - component: {fileID: 1296164980}
+  m_Layer: 0
+  m_Name: straw-house
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!212 &1296164980
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1296164979}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 21e65559107eeb14590b601e0e668ee5, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1.28, y: 0.96}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &1296164981
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1296164979}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 129.09, y: -1.67, z: 0}
+  m_LocalScale: {x: 6.1128793, y: 6.9357085, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1366114619
 GameObject:
   m_ObjectHideFlags: 0
@@ -7256,6 +7364,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.x
       value: 84.29
       objectReference: {fileID: 0}
+    - target: {fileID: 1365844082322231372, guid: 301585ae21fc98446be90f507240ebe7, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2147839750315510777, guid: 301585ae21fc98446be90f507240ebe7, type: 3}
       propertyPath: range
       value: 1.2
@@ -7263,6 +7375,10 @@ PrefabInstance:
     - target: {fileID: 2147839750315510783, guid: 301585ae21fc98446be90f507240ebe7, type: 3}
       propertyPath: m_LocalPosition.x
       value: 38.52
+      objectReference: {fileID: 0}
+    - target: {fileID: 6980274295848447866, guid: 301585ae21fc98446be90f507240ebe7, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 301585ae21fc98446be90f507240ebe7, type: 3}
@@ -7871,7 +7987,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1620622585}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 140.39, y: -3.82, z: -0.3517005}
+  m_LocalPosition: {x: 128.65, y: -3.82, z: -0.3517005}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10444,7 +10560,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -906, y: 445}
+  m_AnchoredPosition: {x: -494, y: 445}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2090900186
@@ -10476,8 +10592,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -10846,6 +10962,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EnemyPatrolHedgedog
       objectReference: {fileID: 0}
+    - target: {fileID: 1365844082322231372, guid: 301585ae21fc98446be90f507240ebe7, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2147839750315510777, guid: 301585ae21fc98446be90f507240ebe7, type: 3}
       propertyPath: range
       value: 1.2
@@ -10853,6 +10973,10 @@ PrefabInstance:
     - target: {fileID: 2147839750315510783, guid: 301585ae21fc98446be90f507240ebe7, type: 3}
       propertyPath: m_LocalPosition.x
       value: 38.52
+      objectReference: {fileID: 0}
+    - target: {fileID: 6980274295848447866, guid: 301585ae21fc98446be90f507240ebe7, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 301585ae21fc98446be90f507240ebe7, type: 3}
